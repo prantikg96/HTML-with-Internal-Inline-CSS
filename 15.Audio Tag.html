@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio Tag</title>
+</head>
+<body>
+    <h1>How to use Audio Tag</h1>
+    <audio controls autoplay loop preload="auto">
+        <source src="Audio/Nightdriver_EIDA.mp3" type="audio/mp3">
+    </audio>
+
+    <audio controls autoplay loop preload="metadata">
+        <source src="Audio/Nightdriver_EIDA.mp3" type="audio/mp3">
+    </audio>
+
+    <audio controls autoplay muted preload="none">
+        <source src="Audio/Nightdriver_EIDA.mp3" type="audio/mp3">
+    </audio>
+</body>
+</html>
+
+<!-- Tags:
+    audio tag: used to audio to page.
+    controls attribute: used to show controls of the audio i.e., play, pause, volume bar, seekbar, fullscreen, 3-dots.
+    autoplay attribute: used to autoplay audio when page is opened or reloaded. (doesn't work with chromium based browsers)
+    loop attribute: used to loop the audio automatically as it finishes.
+    muted attribute: audio muted by default.
+    preload attrubute: requests a particular preload behavior to the browser, which the browser may or may not follow.
+    preload values:
+    a.auto: requests that the browser download the entire audio file, regardless of whether the user is expected to play it. The browser is free to ignore this request.
+    b.metadata: requests that the browser download the audio file’s metadata immediately on page load. The browser is free to ignore this request.
+    c.none: requests that the browser not preload the audio file. The browser is free to ignore this request.
+    source tag: recommended way to provide source of the video.
+    type attribute: optional but recommended attribute to specify the type of source i.e., video and mkv or mp4 or any other video formats.
+-->

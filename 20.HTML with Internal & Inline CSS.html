@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML with Internal & Inline CSS</title>
+    
+    <!-- Internal CSS -->
+    <style>
+        h1{
+            color:white;
+            background-color: blueviolet;
+        }
+        p{
+            color:green;
+            font-size:20px;
+        }
+        span{
+            color:red;
+            font-family:Consolas;
+        }
+    </style>
+</head>
+<body>
+    <h1>Internal CSS</h1>
+
+    <p>This is about internal CSS.</p>
+
+    <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae velit alias fugiat quia odio aliquam quo!</span>
+
+    <!-- Inline CSS -->
+    <h2 style="color:red;background-color:greenyellow; font-size:30px;">Inline CSS</h2>
+
+    <div style="color:yellowgreen; background-color: rebeccapurple;">This is about inline CSS.</div>
+
+</body>
+</html>
+
+<!-- 
+    There are 3 types of CSS:
+    1.External CSS (mostly used & recommended)
+    2.Internal CSS (not recommended but can be used in critical situations)
+    3.Inline CSS (not recommended but can be used in critical situations).
+
+    Here:
+    Tags from HTML are called selectors in CSS. Eg: p, h1-h6, div, span etc.
+    Inside {}, we put properties with values, ending with ; such as color:red; font-family:consolas; etc. 
+ -->

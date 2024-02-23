@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iframe & Video Tag</title>
+</head>
+<body>
+    <h1>How to use iframe tag to show another website in my website:</h1>
+    <iframe src="https://bangla-mart.000webhostapp.com/" width="100%" height="800px" frameborder="0" style="visibility:visible;"></iframe>
+
+    <h1>How to use iframe tag to show YouTube video from YouTube to our website:</h1>
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/cF4WMdsnBVw?si=QTQ0WWOX915fWyyT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    
+    <h1>How to use iframe tag to to show self uploaded video:</h1>
+    
+    <!-- <iframe src="Nightdriver_EIDA.mkv" width="500px" frameborder="0"></iframe> --> 
+    <!-- using iframe tag to show self uploaded video, the browser tends to download the video instead of playing in page. Thus use of video tag is required. -->
+    
+    <video width="100%" controls muted autoplay loop id="video">
+        <source src="Videos/Nightdriver_EIDA.mkv" type="video/mp4">
+      </video>
+</body>
+</html>
+
+<!-- 
+    Tags:
+    iframe tag:
+    used to show another website in my website,
+    used to show YouTube video from YouTube to our website,
+    used to show self uploaded video(used with video tag).
+ -->

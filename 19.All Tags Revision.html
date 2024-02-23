@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="Images/icons8-menu.gif">
+    <title>Revision || All Tags ||</title>
+</head>
+<body>
+    <!-- h1 tag -->
+    <marquee onmouseover="this.stop()" onmouseout="this.start()" behavior="alternate" scrollamount="25" direction="left" style="background-color:aqua; padding:5px 0px; margin-top:20px;">
+        <h1 style="color:darkmagenta;">Revision of HTML</h1>
+    </marquee>
+
+    <!-- hr tag -->
+    <hr width="auto" size="5" color="saffron">
+    <hr width="auto" size="5" noshade>
+
+    <!-- iframe tag from youtube->share->embed -->
+    <h3 style="background-color:rgb(154, 205, 50); text-align:center;"><em><u>Iframe Tag</u></em></h3>
+    <iframe width="400" height="400" src="https://www.youtube.com/embed/OjPpb4hkUlo?si=BcnnjYWtmsFk24Z9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+    <!-- video & source tag -->
+    <h3 style="background-color:rgb(154, 205, 50); text-align:center;"><em><u>Video with source Tag</u></em></h3>
+    <video width="560px" controls autoplay loop poster="Images/400x400bb.jpg">
+        <source src="Videos/Nightdriver_EIDA.mkv" type="video/mkv">
+    </video><br><br>
+
+    <!-- image & cite tag -->
+    <h3 style="background-color:rgb(154, 205, 50); text-align:center;"><em><u>Image with cite Tag</u></em></h3>
+    <img src="Images/4.Links & Images.png" alt="html-logo" width="300px"><br>
+    <cite>html logo</cite><br><br>
+
+    <!-- audio tag -->
+    <h3 style="background-color: rgb(154,205,50); text-align:center;"><em><u>Audio with source Tag</u></em></h3>
+    <audio controls autoplay loop muted preload="auto">
+        <source src="Audio/Nightdriver_EIDA.mp3" type="audio/mp3">
+    </audio>
+    <audio controls autoplay loop muted preload="metadata">
+        <source src="Audio/Nightdriver_EIDA.mp3" type="audio/mp3">
+    </audio><br>
+    <audio controls autoplay loop muted preload="none">
+        <source src="Audio/Nightdriver_EIDA.mp3" type="audio/mp3">
+    </audio><br>
+    <cite><a href="https://www.youtube.com/watch?v=XvdoYQTMTes" target="_blank">Nightdriver_EIDA-3</a> in three preload modes: auto, metadata & none respectively.</cite><br><br><br>
+
+    <h3 style="background-color:yellowgreen; text-align:center;"><em><u>Paragraph writing</u></em></h3>
+
+    <!-- blockquote & p tags -->
+    <blockquote>
+        <p style="background-color: tomato;">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius obcaecati nisi consectetur quod! Quas ab
+            pariatur repudiandae esse sequi expedita doloremque incidunt aliquam, eos hic a corporis aspernatur repellat
+            asperiores ad itaque cum ut impedit voluptate ex, tempore, iste <strong><u>facilis</u></strong> est
+            dignissimos? Exercitationem incidunt pariatur facere <em style="color: white; font-size:20px;">modi cum
+                soluta </em>consequatur? Distinctio molestias magnam sunt expedita provident eum quibusdam voluptas hic
+            quo nesciunt perspiciatis veritatis atque, <i>laboriosam</i> inventore beatae officiis dolorem nam totam
+            numquam! Fuga earum ut hic aperiam harum odio magni nulla necessitatibus ea. Hic modi dolore distinctio
+            temporibus repellat numquam, pariatur esse quo exercitationem ipsa dolorem animi ex. Illo!
+        </p>
+        <p style="font-size:large; font-style:italic; font-family:consolas; background-color:violet; width: 400px;">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed perferendis, libero iste in necessitatibus
+            reprehenderit. Perferendis, vel id vero quidem <del>deserunt</del>, iure quas animi, molestiae
+            praesentium voluptates deleniti sapiente sint necessitatibus. Debitis quibusdam error cumque <b><s>ilium</s></b>
+            cum magnam omnis sapiente. Beatae accusantium maxime ullam similique dolore! Est ab ducimus laboriosam ut
+            tempore laborum, reiciendis quisquam! Dolorum pariatur asperiores earum officia.
+        </p>
+        <p style="font-size:large; font-family:'Times New Roman', Times, serif; background-color:cyan; width:400px; text-align:right;">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed perferendis, libero iste in necessitatibus
+            reprehenderit. Perferendis, vel id vero quidem deserunt, iure quas animi, molestiae praesentium voluptates
+            deleniti sapiente sint necessitatibus. Debitis quibusdam error cumque illum cum magnam omnis sapiente.
+            Beatae accusantium maxime ullam similique dolore! Est ab ducimus laboriosam ut tempore laborum, reiciendis
+            quisquam! Dolorum pariatur asperiores earum officia.
+        </p>
+    </blockquote><br><br>
+
+    <!-- sub & sup tags with HTML Entities -->
+    <h3 style="background-color:yellowgreen; text-align:center;"><em><u>Sub & Sup Tag with HTML Entities</u></em></h3>
+    <p>
+        H<sub>2</sub>O
+    </p>
+    <p>
+        a<sup>x</sup> = b<sup>y</sup><br><br>
+    </p>
+    A&rarr;B &nbsp; B&larr;A <br>
+    &copy; 28&deg;C <pre>&#8377;10,000</pre>
+    <a href="https://www.w3.org/TR/2011/WD-html5-20110525/named-character-references.html" target="_blank">For all entities, click me!</a><br><br>
+
+    <!-- form tags with fieldset, legend, label, input, select, option & button tags -->
+    <h3 style="background-color:yellowgreen; text-align:center;"><em><u>Form tags with fieldset, legend, label, input, select, option & button tags</u></em></h3>
+    <blockquote>
+        <form action="for adding php_file.php">
+            <fieldset>
+                <legend style="background-color:teal; color:whitesmoke">Sign-up with Personal Information</legend><br>
+
+                <label for="Fname">First Name:</label>
+                <div>
+                    <input type="text" name="FirstName" id="Fname" placeholder="Enter first name"><br><br>
+                </div>
+
+                <label for="Lname">Last Name:</label>
+                <div>                   
+                    <input type="text" name="LastName" id="Lname" placeholder="Enter last name"><br><br>
+                </div>
+
+                <label for="mailid">Email ID:</label>
+                <div>
+                    <input type="email" name="EMail" id="mailid" placeholder="Enter your email"><br><br>
+                </div>
+                
+                <label for="passw">Password:</label>
+                <div>
+                    <input type="password" name="PassWord" id="passw" placeholder="Enter password"><br><br>
+                </div>
+
+                <label for="Ph_no">Phone Number:</label>
+                <div>
+                    <input type="number" name="PhoneNumber" id="Ph_no" placeholder="Enter phone number"><br><br>
+                </div>
+
+                <label for="dob">Date to Birth:</label>
+                <div>
+                    <input type="date" name="DoB" id="dob"><br><br>
+                </div>
+
+                <label for="dts">Date & Time of Submission:</label>
+                <div>
+                    <input type="datetime-local" name="DTS" id="dts"><br><br>
+                </div>
+                
+                <label for="file_doc">Choose document:</label>
+                <div>
+                    <input type="file" name="FileDoc" id="file_doc"><br><br>
+                </div>
+                
+                <div>
+                    Gender:
+                    <input type="radio" name="gender" id="male">
+                    <label for="male">Male</label>
+                    <input type="radio" name="gender" id="female">
+                    <label for="female">Female</label>
+                    <input type="radio" name="gender" id="none" checked>
+                    <label for="none">None</label><br><br>
+                </div>
+
+                <div>
+                    Choose Your favourite color:
+                    <input type="checkbox" name="RED" id="red">
+                    <label for="red">Red</label>
+                    <input type="checkbox" name="BLUE" id="blue">
+                    <label for="blue">Blue</label>
+                    <input type="checkbox" name="GREEN" id="green">
+                    <label for="green">Green</label>
+                    <input type="checkbox" name="YELLOW" id="yellow">
+                    <label for="yellow">Yellow</label>
+                    <input type="checkbox" name="none" id="None" checked>
+                    <label for="None">None</label><br><br>
+                </div>
+                
+                <div>
+                    <label for="coLor">Color:</label>
+                    <input type="color" name="color" id="coLor"><br><br>
+                </div>
+
+                <div>
+                    Choose Your Country:
+                    <select name="country" id="">
+                        <option value="india">India</option>
+                        <option value="bangladesh">Bangladesh</option>
+                        <option value="pakistan">Pakistan</option>
+                        <option value="select_country" selected>Select your country</option>
+                        <option value="nepal">Nepal</option>
+                        <option value="china">China</option>
+                        <option value="bhutan">Bhutan</option>
+                    </select><br><br>
+                </div>
+
+                <div>
+                    Choose Budget Range:
+                    1<input type="range" name="BudgetRange" id="budget_range">100<br><br>
+                </div>
+
+                <label for="msgs">Type your messages here:</label><br>
+                <div>
+                        <textarea name="Message" id="msgs" minlength="3" maxlenth="100" cols="50" rows="10"
+                        placeholder="Enter your messages here...."></textarea><br><br>
+                </div>
+                
+                <div>
+                    <input type="submit" value="SUBMIT NOW!">
+                    <input type="reset" value="RESET ALL!">
+                    <button>DO NOTHING</button>
+                </div>
+            </fieldset>
+        </form>
+    </blockquote><br><br>
+
+    <!-- List with ol & ul tags -->
+    <h3 style="background-color:yellowgreen; text-align:center;"><em><u>List</u></em></h3>
+    <span style="background-color: greenyellow;">Ordered list:</span>
+    <ol type="1" start="2">
+        <li>list 1</li>
+        <ul>
+            <li>sublist 1.1</li>
+        </ul>
+        <li>list 2</li>
+        <li>list 3</li>
+    </ol>
+    <ol type="A">
+        <li>list a</li>
+        <li>list b</li>
+        <li>list c</li>
+    </ol>
+    <ol type="a">
+        <li>list a</li>
+        <li>list b</li>
+        <li>list c</li>
+    </ol>
+    <ol type="I">
+        <li>list I</li>
+        <ol type="i">
+            <li>list I.I</li>
+        </ol>
+        <li>list II</li>
+        <li>list III</li>
+    </ol><br>
+    <span style="background-color: greenyellow;">Unordered list:</span>
+    <ul> <!-- type="circle". its default -->
+        <li>list 1</li>
+        <ol type="a" start="25">
+            <li>list 1.1</li>
+            <li>list 1.2</li>
+        </ol>
+        <li>list 2</li>
+        <li>list 3</li>
+    </ul>
+    <ul type="circle">
+        <li>list 1</li>
+        <li>list 2</li>
+        <li>list 3</li>
+    </ul>
+    <ul type="square">
+        <li>list 1</li>
+        <li>list 2</li>
+        <li>list 3</li>
+    </ul><br><br>
+    
+    <!-- Blockquote with abbr, q, small, pre tags -->
+    <h3 style="background-color:yellowgreen; text-align:center;"><em><u>Blockquote with abbr, q, small, pre tags</u></em></h3>
+    <blockquote>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate eius, veritatis mollitia qui eos laboriosam veniam deserunt quisquam facilis rem dolorum excepturi error id vel iste accusantium quod tenetur, beatae totam. Incidunt laborum ipsa inventore rerum exercitationem quae sapiente nihil ut quaerat consequatur harum ipsum quasi quas alias placeat labore vero ipsam quam, quod commodi voluptates ducimus adipisci ad recusandae. Iure accusamus vero eaque laborum illo itaque laudantium sunt iusto. Quidem placeat sequi rem eaque nobis aperiam delectus. Veritatis exercitationem, <strong style="background-color: rosybrown; font-size: large;"><q>fugiat laborum commodi</q></strong> ,illum, nemo illo id suscipit autem et dolore perspiciatis eligendi delectus! Assumenda itaque dolore a, voluptatibus tenetur iure dicta culpa perferendis nihil quibusdam! Quod doloremque officiis expedita, ex eos assumenda. Deserunt corrupti maxime animi id neque expedita vero <abbr style="color:red" title="United States of America">USA</abbr> eveniet atque iure. Similique quod iusto in, magnam alias recusandae animi illo tempora temporibus expedita optio commodi ea fugit inventore, vel magni aperiam nostrum tempore nemo? Sint voluptas provident quaerat officiis ipsum corrupti amet, nobis nihil omnis eligendi impedit adipisci quo mollitia, ducimus sed corporis explicabo quasi numquam! Sapiente facere debitis cum. Impedit repudiandae atque a autem officia error delectus, provident eaque, excepturi facere ipsam dolores. Voluptates aut incidunt deleniti praesentium! Architecto error, deleniti quo totam praesentium magnam! Optio facere ullam saepe possimus ut odio nulla error unde id? Quis accusamus neque molestiae possimus ex. Eveniet cumque et veniam debitis, quas explicabo? Eius, repudiandae iure. Modi, quaerat dolor quam dolorem omnis iste, porro minus asperiores nam ea necessitatibus natus nulla. Exercitationem provident molestias sed porro fugit odio dolor?Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam assumenda, possimus hic alias odit delectus voluptatibus culpa veritatis minima ipsum, reprehenderit quis fugiat ab ad unde neque repellendus excepturi magni! Dignissimos modi itaque, aliquam facilis, necessitatibus optio reprehenderit distinctio eius deserunt nostrum similique perspiciatis ratione rem dolorum, minima animi aut laborum fuga voluptate aperiam vitae. Voluptas, consectetur earum repudiandae doloribus fuga id, modi nam illum nulla cumque excepturi nobis error deserunt, necessitatibus sed voluptates vel fugit expedita dignissimos eaque? Temporibus necessitatibus quibusdam nisi tempora nam doloremque minima dolores consectetur quidem consequuntur nihil provident, voluptatibus qui dolorem corrupti hic aliquid harum.
+        <small style="background-color: aquamarine;">This is small tag.</small>
+        <pre>This   is    pre   tag.</pre>
+    </blockquote><br><br>
+
+    <!-- Table with thead, tr, th, tbody, td & caption tags -->
+    <h3 style="background-color:yellowgreen; text-align:center;"><em><u>Table with thead, tr, th, tbody, td & caption tags</u></em></h3>
+    <table border="1" style="width:80%; margin:auto; text-align:center; border-collapse:collapse;">
+        <caption style="font-style:italic; color:magenta; padding: 10px;">Block & Inline elements</caption>
+        <thead style=" background-color:chocolate;">
+            <tr>
+                <th>Block Elements</th>
+                <th>Inline Elements</th>
+            </tr>
+        </thead>
+        <tbody style="background-color:lightskyblue;">
+            <tr style="background-color:yellow;">
+                <td dir="auto">1. &lt;address&gt; &lt;/address&gt;</td>
+                <td dir="auto">1. &lt;a&gt; &lt;/a&gt;</td>
+            </tr>
+            <tr style="background-color:lightgreen;">
+                <td dir="auto">2. &lt;blockquote&gt; &lt;/blockquote&gt;</td>
+                <td dir="auto">2. &lt;abbr&gt; &lt;/abbr&gt;</td>
+            </tr>
+            <tr style="background-color:red;">
+                <td>3. &lt;dd&gt; &lt;/dd&gt;</td>
+                <td>3. &lt;b&gt; &lt;/b&gt;</td>
+            </tr>
+            <tr style="background-color:yellow;">
+                <td>4. &lt;dl&gt; &lt;/dl&gt;</td>
+                <td>4. &lt;br&gt;</td>
+            </tr>
+            <tr style="background-color:lightyellow;">
+                <td>5. &lt;dt&gt; &lt;/dt&gt;</td>
+                <td>5. &lt;button&gt; &lt;/button&gt;</td>
+            </tr>
+            <tr style="background-color:red;">
+                <td>6. &lt;div&gt; &lt;/div&gt;</td>
+                <td>6. &lt;cite&gt; &lt;/cite&gt;</td>
+            </tr>
+            <tr style="background-color:yellow;">
+                <td>7. &lt;fieldset&gt; &lt;/fieldset&gt;</td>
+                <td>7. &lt;i&gt; &lt;/i&gt;</td>
+            </tr>
+            <tr style="background-color:lightblue">
+                <td>8. &lt;form&gt; &lt;/form&gt;</td>
+                <td>8. &lt;img&gt;</td>
+            </tr>
+            <tr style="background-color:yellow;">
+                <td>9. &lt;h1&gt; to &lt;h6&gt;</td>
+                <td>9. &lt;input&gt;</td>
+            </tr>
+            <tr style="background-color:yellow;">
+                <td>10. &lt;hr&gt;</td>
+                <td>10. &lt;label&gt; &lt;/label&gt;</td>
+            </tr>
+            <tr style="background-color:yellow;">
+                <td>11. &lt;li&gt; &lt;/li&gt;</td>
+                <td>11. &lt;q&gt; &lt;/q&gt;</td>
+            </tr>
+            <tr style="background-color:yellow;">
+                <td>12. &lt;ol&gt; &lt;/ol&gt;</td>
+                <td>12. &lt;select&gt; &lt;/select&gt;</td>
+            </tr>
+            <tr style="background-color:yellow;">
+                <td>13. &lt;ul&gt; &lt;/ul&gt;</td>
+                <td>13. &lt;small&gt; &lt;/small&gt;</td>
+            </tr>
+            <tr style="background-color:yellow;">
+                <td>14. &lt;p&gt; &lt;/p&gt;</td>
+                <td>14. &lt;span&gt; &lt;/span&gt;</td>
+            </tr>
+            <tr style="background-color:yellow;">
+                <td>15. &lt;pre&gt; &lt;/pre&gt;</td>
+                <td>15. &lt;strong&gt; &lt;/strong&gt;</td>
+            </tr>
+            <tr style="background-color:yellow;">
+                <td>16. &lt;table&gt; &lt;/table&gt;</td>
+                <td>16. &lt;em&gt; &lt;/em&gt;</td>
+            </tr>
+            <tr style="background-color:yellow;">
+                <td>17. &lt;video&gt; &lt;/video&gt;</td>
+                <td>17. &lt;sub&gt; &lt;/sub&gt;</td>
+            </tr>
+            <tr style="background-color:yellow;">
+                <td>-</td>
+                <td>18. &lt;sup&gt; &lt;/sup&gt;</td>
+            </tr>
+            <tr style="background-color:yellow;">
+                <td>-</td>
+                <td>19. &lt;textarea&gt; &lt;/textarea&gt;</td>
+            </tr>
+        </tbody>
+    </table><br>
+
+    <table border="1" style="width:70%; margin:auto; text-align:center; border-collapse:collapse;">
+        <caption style="font-style:italic; color:maroon; padding: 10px;">Tables-rowspan & columnspan</caption>
+        <tr height="40px">
+            <td rowspan="2">1</td>
+            <td>2</td>
+        </tr>
+        <tr height="40px">
+            <!-- <td>3</td> -->
+            <td>4</td>
+        </tr>
+        <tr height="40px">
+            <td>5</td>
+            <td>6</td>
+        </tr>
+        <tr height="40px">
+            <td colspan="2">7</td>
+            <!-- <td>8</td> -->
+        </tr>
+        <tr height="40px">
+            <td>9</td>
+            <td>10</td>
+        </tr>
+        <tr height="40px">
+            <td>11</td>
+            <td>12</td>
+        </tr>
+    </table><br/>
+
+    <table border="1" style="width:60%; margin:auto; text-align:center; border-collapse:collapse;">
+        <caption style="font-style:italic; color:rgb(76, 204, 50); padding: 10px;">Tables</caption>
+        <tr height="40px" style="background-color:cadetblue; color:white">
+            <td colspan="3">Website Name</td>
+        </tr>
+        <tr height="150px" style="background-color:chocolate;">
+            <td>Menu</td>
+            <td>Content Area Here</td>
+            <td>ADVT</td>
+        </tr>
+        <tr height="40px" style="background-color:darkgreen; color:white">
+            <td colspan="3">Footer</td>
+        </tr>
+    </table><br><br>
+
+    <!-- Footer & Address Tag -->
+    <h3 style="background-color:yellowgreen; text-align:center;"><em><u>Footer & Address Tag</u></em></h3>
+    <footer style="background-color: aquamarine;" align="center">
+        <p>&copy; Prantik Ghosh</p>
+        <p>
+            <address>Bhoot Bunglow, Shamshan Gully. Pin no.7xxx58</address>
+        </p>
+        <p>Contact:
+            <a href="mailto:prantik.g1996@gmail.com">prantik.g1996@gmail.com</a>
+        </p>  
+    </footer>
+</body>
+</html>
+
+<!-- All HTML tags shown & implemented above -->

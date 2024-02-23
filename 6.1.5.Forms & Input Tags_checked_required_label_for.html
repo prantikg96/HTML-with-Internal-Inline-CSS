@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>6.1.5.Forms & Input Tags_checked_required_label_for</title>
+</head>
+<body>
+    <form style="width:600px; margin:auto;">
+        <fieldset>
+            <legend>Personal Info</legend><br>
+
+        <label for="Fname">First Name:</label>
+        <input type="text" name="first_name" id="Fname" placeholder="Enter your first name" required><br><br>
+
+        <label for="Lname">Last Name:</label>
+        <input type="text" name="last_name" id="Lname" placeholder="Enter your last name" required><br><br>
+
+        <label for="pass">Password:</label>
+        <input type="password" name="password" id="pass" placeholder="Enter your password"><br><br>
+
+        <label for="mail_id">E-mail:</label>
+        <input type="email" name="mail" id="mail_id" placeholder="Enter your e-mail ID"><br><br>
+
+        <label for="dob">DOB:</label>
+        <input type="date" name="DOB" id="dob"><br><br>
+
+        <label for="file_upload">File:</label>
+        <input type="file" name="File_Upload" id="file_upload"><br><br>
+
+        Gender:
+        <input type="radio" name="gender" id="male">
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="female">
+        <label for="female">Female</label><br><br>
+
+        Choose your favourite color:
+        <input type="checkbox" name="RED" id="red" checked>
+        <label for="red">Red</label>
+        <input type="checkbox" name="BLUE" id="blue">
+        <label for="blue">Blue</label>
+        <input type="checkbox" name="GREEN" id="green">
+        <label for="green">Green</label>
+        <input type="checkbox" name="YELLOW" id="yellow">
+        <label for="yellow">Yellow</label><br><br>
+
+        <label for="coLor">Color:</label>
+        <input type="color" name="Color" id="coLor"><br><br>
+
+        Choose your Country:
+        <select name="country" id="">
+            <option value="india">India</option>            
+            <option value="bangladesh">Bangladesh</option>            
+            <option value="pakistan">Pakistan</option>
+            <option value="select_country" selected>Select your country</option>
+            <option value="nepal">Nepal</option>            
+            <option value="china">China</option>            
+            <option value="bhutan">Bhutan</option>            
+        </select><br><br>
+
+        Choose your range: <br>
+        1<input type="range" min="1" max="100">100 <br><br>
+
+        <label for="text_area">Type your message here:</label><br>
+        <textarea name="name_area" id="text_area" minlength="3" maxlength="100" cols="50" rows="10" placeholder="Enter your messages here...."></textarea><br><br>
+
+        <input type="submit" value="SUBMIT">
+        <input type="reset" value="RESET">
+
+    </fieldset>
+    </form>
+</body>
+</html>
+
+<!-- 
+    Tags:
+    form tag: mainly used for creating a form.
+    style attribute of form tag: used to give styles to the form.
+    fieldset tag: used to create a border all around the form.
+    legend tag: used to write heading/legend within border lines.
+    label for tag:"Name".
+    input id = same as label for value i.e., NAME.
+    input name: Value entered mainly used for backend.
+    checked attribute: used to set default checkbox input value
+    requiered attribute: used to set 'is a must' input value before form submit.
+    textarea tag: used create text message for to take input in form of messages from user.
+    input type"submit" : to create SUBMIT button
+    input type"reset" : to create RESET button
+    button tag: to create button
+ -->

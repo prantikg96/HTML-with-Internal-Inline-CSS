@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Output Tag</title>
+</head>
+<body>
+    <h1>Calculate the sum of two numbers:</h1>
+    <form oninput="sum.value=parseInt(a.value)+parseInt(b.value);">
+        <label>Enter first value:</label><br>
+        <input type="number" name="a" value=""/><br>
+        +<br/>
+        <label>Enter second value:</label><br>
+        <input type="number" name="b" value=""><br>
+        =<br>
+        Output sum: <output name="sum"></output>
+    </form>
+</body>
+</html>

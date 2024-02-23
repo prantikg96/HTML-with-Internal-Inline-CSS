@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marquee</title>
+</head>
+<body>
+    <marquee behavior="" direction="left" style="background-color:brown; color:white; padding:10px 0px">Hello Marquee</marquee> <!--default-->
+    <marquee behavior="scroll" scrollamount="15" direction="left" style="background-color:brown; color:white; padding:10px 0px">Hello Marquee</marquee> <!--default-->
+    <marquee behavior="slide" direction="" style="background-color:brown; color:white; padding:10px 0px">Hello Marquee</marquee>
+    <marquee behavior="alternate" scrollamount="25" direction="right" style="background-color:brown; color:white; padding:10px 0px;margin-top:20px;">Hello Marquee</marquee>
+    <marquee onmouseover="this.stop()" onmouseout="this.start()" behavior="alternate" scrollamount="25" direction="left" style="background-color:brown; color:white; padding:10px 0px;margin-top:20px;">Hello Marquee</marquee>
+    <marquee onmouseover="this.stop()" onmouseout="this.start()" behavior="" direction="up" scrollamount="8" style="text-align:center; background-color:brown; color:white; width:150px; height:200px; padding:10px 0px;margin-top:20px">Hello Marquee</marquee>
+    <marquee onmouseover="this.stop()" onmouseout="this.start()" behavior="" direction="down" scrollamount="8" style="text-align:center; background-color:brown; color:white; width:150px; height:200px; padding:10px 0px;margin-top:20px">Hello Marquee</marquee>
+</body>
+</html>
+
+<!-- 
+    Marquee tag was there upto HTML 4, but removed from HTML 5. This page about Marquee tag is just for learning purpose.
+
+    marquee behavior=scroll(default), can also keep it blank, i.e, behavior=""
+    marquee behavior=slide
+    marquee behavior=alternate
+    marquee scrollamount=10: this attribute increases the speed of scrolling
+    direction: left, right, up, down
+    padding attribute= mainly used in css. it increased the space up-down by 10px and sides by 0px
+    margin: similar as padding
+
+ -->
