@@ -2,7 +2,7 @@
 
 HTML (HyperText Markup Language) is the standard markup language for creating web pages. It consists of various tags that define different elements within a webpage. Below is a list of common HTML tags, organized from top to bottom according to their typical usage in a webpage structure:
 
-## 1. `First Code.html`
+## 1. <a href="https://github.com/prantikg96/HTML-with-Internal-Inline-CSS/blob/main/1.First%20Code.html">`First Code.html`</a>
 
 ## 2. `Link CSS & JS.html`
 
